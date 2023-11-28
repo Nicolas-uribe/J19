@@ -13,8 +13,11 @@ public class Main {
 
         System.out.print("Ingrese un número: ");
         int numero = scanner.nextInt();
-        System.out.println("Numero " + numero);
-
+       if (numero < 0) {
+        System.out.println("El nùmero " + numero + " es: Negativo");
+       } else  {
+           System.out.println("El nùmero " + numero + " es: Positivo");
+       }
 
     }
 }
