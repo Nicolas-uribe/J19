@@ -32,6 +32,6 @@ public class Actividad4{
             intentos++;
         }
             System.out.println("¡Lo siento! Has agotado tus 10 intentos. El número era: " + numeroAleatorio);
-        
+
     }
 }

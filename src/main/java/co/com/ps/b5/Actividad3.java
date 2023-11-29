@@ -11,7 +11,7 @@ public class Actividad3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Ejercicio 1: Determinar si un número es positivo o negativo
+        // Ejercicio 1: Determinar si un número es positivo o negativo o cero
         System.out.print("Ingrese un número: ");
         int numero = scanner.nextInt();
 
