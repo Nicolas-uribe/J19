@@ -4,30 +4,7 @@ package co.com.ps.b4;
 
 
 public class Actividad2 {
-    // Atributos de la clase
-    private String nombre;
-    private int edad;
-    private String tipo;
-
-    // Constructor
-    public Actividad2(String nombre, int edad, String tipo) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.tipo = tipo;
-    }
-
-    // Método para obtener información de la actividad
-    public void mostrarInformacion() {
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Edad: " + edad + " años");
-        System.out.println("Tipo: " + tipo);
-    }
-
-    public static void main(String[] args) {
-        // Crear una instancia de la clase Actividad2 y llenarla con información
-        Actividad2 miActividad = new Actividad2("Correr", 3, "Deportiva");
-
-        // Llamar al método para mostrar información de la actividad
-        miActividad.mostrarInformacion();
-    }
+  // Se crea el objeto Mascota en la public class Mascota
+  // Se llama, llena, muestra  desde el metodo main en la public class Main
+  // En la class Registro se pregunta cuantas mascotas nuevas se desean crear, la información se llena por medio de la consola y al final se muestra
 }
